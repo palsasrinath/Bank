@@ -1,0 +1,101 @@
+<?php include('header.php'); ?>
+<div class="container wrapper-products">
+		<!-- Breadcurb Area -->
+		<div class="breadcurb-area">
+			<div class="row">
+				<ul class="breadcrumb">
+					<li class="home"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+					Home</li>
+					<li>Products</li>
+				</ul>
+			</div>
+		</div><!-- End Breadcurb Area -->
+
+ <div class="row" >
+      <div  class="col-sm-6 col-md-12">
+        <h3>SPECIALIZATION</h3>
+		</div>
+        <hr/>
+        <div class="col-xs-12 col-md-3"> <!-- required for floating -->
+          <!-- Nav tabs -->
+			  <ul class="nav nav-tabs tabs-left">
+				<li class="active"><a href="#home" data-toggle="tab">General Physician (Medicine)</a></li>
+				<li><a href="#tab1" data-toggle="tab">Gynaecology</a></li>
+				<li><a href="#tab2" data-toggle="tab">Dermatology (Skin)</a></li>
+				<li><a href="#tab3" data-toggle="tab">ENT (Otolaryngology)</a></li>
+				<li><a href="#tab4" data-toggle="tab">Dentistry (Teeth)</a></li>
+				<li><a href="#tab5" data-toggle="tab">Orthopedics / Orthopedic Surgery</a></li>
+				<li><a href="#tab6" data-toggle="tab">General Surgery</a></li>
+				<li><a href="#tab7" data-toggle="tab">Plastic Surgery</a></li>
+				<li><a href="#tab8" data-toggle="tab">Urology</a></li>
+				<li><a href="#tab9" data-toggle="tab">Neurology</a></li>
+				<li><a href="#tab10" data-toggle="tab">ENT (Otolaryngology)</a></li>
+				<li><a href="#tab11" data-toggle="tab">Pulmonology (TB and Chest)</a></li>
+				<li><a href="#tab12" data-toggle="tab">Cardiology</a></li>
+				<li><a href="#tab13" data-toggle="tab">Dietitian and Nutritionist</a></li>
+				<li><a href="#tab14" data-toggle="tab">Gastroenterology</a></li>
+				<li><a href="#tab15" data-toggle="tab">Nephrology</a></li>
+				<li><a href="#tab16" data-toggle="tab">Neurological Surgery</a></li>
+				<li><a href="#tab17" data-toggle="tab">Psychiatry</a></li>
+				<li><a href="#tab18" data-toggle="tab">Ophthalmology (Eye)</a></li>
+				<li><a href="#tab19" data-toggle="tab">Physiology and Physiotherapy</a></li>
+				<li><a href="#tab20" data-toggle="tab">Radiology / Imaging</a></li>
+			  </ul>
+        </div>
+
+<!---------------------------------start tab content --------------------------------->
+<div class="col-xs-9 col-md-9">
+  <!-- Tab panes -->
+  <div class="tab-content">
+  <!---------- ======= tab home============ ------------>
+	<div class="tab-pane active" id="home">
+		<!-- doctor-1 -->
+		<div class="card col-md-4 pad-0 text-center">
+			  <div class="card-block">
+				<h4 class="card-title">Dr. Prasuna Rani</h4>
+				<h6 class="card-subtitle text-muted">Gynaecology</h6>
+			  </div>
+			<img src="img/products/doc.png" class="card_img" alt="Card image">
+			  <div class="card-block">
+				<p class="card-text">some text about doctor (if necessary)</p>
+				<a href="bookappointment.php" class="card-link"><p class="book_app">Book Appoinment</p></a>
+			  </div>
+		</div><!-- card -->
+		<!-- doctor-2 -->
+		<div class="card col-md-4 pad-0 text-center">
+			  <div class="card-block">
+				<h4 class="card-title">Dr. Prasuna Rani</h4>
+				<h6 class="card-subtitle text-muted">Gynaecology</h6>
+			  </div>
+			<img src="img/products/doc.png" class="card_img" alt="Card image">
+			  <div class="card-block">
+				<p class="card-text">some text about doctor (if necessary)</p>
+				<a href="bookappointment.php" class="card-link"><p class="book_app">Book Appoinment</p></a>
+			  </div>
+		</div><!-- card -->
+
+
+
+	</div><!-- tab-pane-->
+
+	<!---------- ======= tab 1============ ------------>
+	<div class="tab-pane" id="tab1">doctors</div><!-- tab-pane-->
+
+	<!---------- ======= tab 2============ ------------>
+	<div class="tab-pane" id="tab2">doctors</div><!-- tab-pane-->
+
+	<!---------- ======= tab 3============ ------------>
+	<div class="tab-pane" id="tab3">doctors</div><!-- tab-pane-->
+
+  </div><!-- tab-content-->
+</div>
+		<div class="clearfix"></div>
+<!---------------------------------end tab content --------------------------------->
+        
+
+      </div><!-- row-->
+
+
+</div><!-- wrapper-products -->
+
+<?php include('footer.php'); ?>

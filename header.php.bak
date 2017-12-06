@@ -1,0 +1,335 @@
+<!doctype html>
+<html class="no-js" lang="">
+    
+<!-- Mirrored from devitems.com/tf/selphy-preview/selphy/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 Oct 2016 06:33:22 GMT -->
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>|| Himagiri Hospitals ||</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- favicon
+		============================================ -->		
+        <link rel="shortcut icon" type="image/x-icon" href="#">
+		
+		<!-- Google Fonts
+		============================================ -->		
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css' />
+	   
+		<!-- Bootstrap CSS
+		============================================ -->		
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+		<!-- Font Awesome CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- Mean Menu CSS
+		============================================ -->      
+        <link rel="stylesheet" href="css/meanmenu.min.css">
+		<!-- owl.carousel CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.theme.css">
+        <link rel="stylesheet" href="css/owl.transitions.css">
+		<!-- nivo-slider css
+		============================================ --> 
+		<link rel="stylesheet" href="css/nivo-slider.css">
+		<!-- Price slider css
+		============================================ --> 
+		<link rel="stylesheet" href="css/jquery-ui-slider.css">
+		<!-- Simple Lence css
+		============================================ --> 
+		<link rel="stylesheet" type="text/css" href="css/jquery.simpleLens.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery.simpleGallery.css">
+		<!-- normalize CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/normalize.css">
+		<!-- verticaltabs CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/bootstrap.vertical-tabs.css">
+
+		
+		<!-- responsive CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/responsive.css">
+		<!-- modernizr JS
+		============================================ -->		
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+		
+		<!-- main CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/main.css">
+		<!-- style CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/style.css">
+		
+ <!-- Nav Bar Fixed --->
+  <style>
+  .affix {
+      top: 0;
+      width: 100%;
+	  z-index:99;
+	  -webkit-transition: all 0.2s; /* Safari */ transition: all 0.2s;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+  .affix .logo{height:40px;-webkit-transition: width 0.2s, height 0.2s; /* Safari */ transition: width 0.2s, height 0.2s;}
+  .affix .menubar_ul{padding-top:1%;-webkit-transition: all 0.2s; /* Safari */ transition: all 0.2s;}
+  </style>
+    </head>
+
+<body>
+<!--[if lt IE 8]>
+	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+		
+		<!-- Header Area -->
+		<div class="header-area">
+			<!-- Header Top -->
+			<div class="header-top">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12">
+							<!-- Header Top Bar-->
+							<div class="header-top-bar">
+								<div class="row">
+									<div class="col-md-10 col-xs-10">
+										<!-- Header Top Left-->
+										<div class="header-top-left">
+											<div class="call-header">
+												<ul class="emergency ul-xs">
+                                                   <li><i class="fa fa-ambulance" aria-hidden="true"></i>Emergency:9581965668</li>
+												   <li>
+														<button class="btn-login" type="button" data-toggle="modal" data-target="#gridSystemModal">
+														<i class="fa fa-sign-in" aria-hidden="true"></i>Login
+													  </button>
+												   </li>
+												   <li><a class="reg-a" href="register.php"><i class="fa fa-pencil" aria-hidden="true"></i>Register</a></li>
+												   <li>24/7 Emergency services</li>
+												</ul>
+												</div>
+											
+										</div><!-- End Header Top Left-->
+									</div>
+									<div class="col-md-2">
+										<!-- Header Top Right-->
+										<div class="header-top-right">
+											<!-- Header Link Area -->
+											<div class="header-link-area">
+												<div class="social-footer">
+													<ul class="giri ul-xs">
+													  <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+													  <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+													  <li><i class="fa fa-google-plus" aria-hidden="true"></i></li>
+													  <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+													  <li><i class="fa fa-youtube-square" aria-hidden="true"></i></li>
+													</ul>
+												</div>
+
+											</div><!-- End Header Link Area -->
+										</div><!-- End Header Top Right-->
+									</div>
+								</div>
+					
+						</div>
+					</div>
+					</div>
+			</DIV>			
+			</div><!-- End Header Top -->
+
+<!--header-bottom -->
+<nav class="navbar hor-menu " data-spy="affix" data-offset-top="100">
+	<div class="container-fluid">
+		<div class="navbar-header">
+		  <button type="button " class="navbar-toggle menu-btn col-xs-12" data-toggle="collapse" data-target="#myNavbar"><label>menu</label></button>
+		  <a class="navbar-brand" href="#"><img src="img/logo/himagiri.png" class="logo" style=""  alt="logo"></a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<!-- menu -->
+			  <ul class="nav navbar-nav navbar-right menubar_ul">
+				<li><a href="index.php">HOME</a></li>
+	            <li><a href="about.php">ABOUTUS</a></li>
+	            <li><a href="specialties.php">SPECIALTIES</a></li>
+				<li class="menu_rel">
+				<!-- sub-menu -->
+					<a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">OUR DOCTORS</a>					
+					<ul class="dropdown-menu" id="dropdown-menu">
+						<li>
+						<a class="dropdown-item" href="products.php">list1</a></li>
+						<li><a class="dropdown-item" href="products.php">list1</a></li>
+						<li><a class="dropdown-item" href="products.php">list1</a></li>
+						<li><a class="dropdown-item" href="products.php">list1</a></li>
+					</ul>	
+				</li>
+				<li><a href="services.php">BOOKONLINE APPOINTMENT</a></li>
+				<li><a href="gallery.php">GALLERY</a></li>
+				<li><a href="tie-ups.php">TIE UPS</a></li>
+				<li><a href="contact.php">CONTACTUS</a></li>
+				<li><a href="feedback.php">FEEDBACK</a></li>
+			  </ul>
+		</div>
+	</div>
+  </nav>
+<!--header-bottom ends-->
+
+			<!-- Header Bottom ->
+			<div class="header-bottom container-fluid main-menu-area home-2">
+					<div class="row m-lr">					
+						<div class="col-md-2">
+							<!-- Header Bottom Inner--
+							<div class="header-bottom-inner">
+								<div class="row m-lr">
+									<div class="col-md-12 col-xs-6 logo">
+										<!-- Header Logo --
+										<div class="header-logo">
+											<a href="index.php"></a>
+	
+										</div>
+									</div>
+							</div><!-- End Header Bottom Inner-->
+						</div>
+					</div>
+				<div class="col-md-10">
+				</div>
+		<!-- Main Menu Area -
+<div class="container-fliud">
+	-
+		<div class="row m-lr">
+
+		<div class="col-md-12 col-xs-24 pad-0">
+			<div class="row pad-0 m-lr">
+				<div class="col-md-12 col-xs-22 pad-0">
+					<!-- Manin Menu -
+					<div class="main-menu row m-lr hidden-xs hidden-sm">
+
+				<nav class="navbar navbar-inverse pad-0 col-md-12" data-spy="affix" data-offset-top="197">
+					<ul class="pad-0">
+
+						<li><a href="index.php">HOME</a></li>
+							<li <?php if($mainUrl == "/about.php")  echo $bgClass;?>><a href="about.php" 
+							<?php if($mainUrl == "/about.php")  echo $assignClass;?>>ABOUTUS</a></li>
+							<li><a href="specialties.php">SPECIALTIES</a></li>
+							<li <?php if($mainUrl == "/products.php")  echo $bgClass;?>><a href="products.php" <?php if($mainUrl == "/products.php")  echo $assignClass;?>>OUR DOCTORS<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+								<ul class="sub-menu">
+								<a href="products.php"><li><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 
+								GENERAL PHYSICIAN (MEDICINE)</li></a>
+								<a href="procelian.php"><li><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+								Gynaecology </li></a>
+								<a href="cubicles.php"><li><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+								Pediatrics</li></a>
+								<a href="powercntrl.php"><li><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+								Dermatology (Skin)</li></a>
+								<a href="motorcntrl.php"><li><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+								ENT (Otolaryngology) </li></a>
+								<a href="dboards.php"><li><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+								Dentistry (Teeth) </li></a>
+								<a href="amf.php"><li><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+								Orthopedics / Orthopedic Surgery</li></a>
+								<a href="syncnize.php"><li><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+								General Surgery</li></a>
+								<a href="apfc.php"><li><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+								Plastic Surgery</li></a>
+								<a href="powercntrl.php"><li><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+								Urology</li></a>
+								<a href="motorcntrl.php"><li><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+								Neurology</li></a>
+								<a href="dboards.php"><li><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+								Pulmonology (TB and Chest) </li></a>
+								<a href="amf.php"><li><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+								Cardiology</li></a>
+								<a href="syncnize.php"><li><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+								Dietitian and Nutritionist</li></a>
+								<a href="apfc.php"><li><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+								Gastroenterology</li></a>
+								<a href="syncnize.php"><li><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+								Nephrology</li></a>
+								<a href="apfc.php"><li><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+								Neurological Surgery</li></a>
+								<a href="powercntrl.php"><li><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+								Psychiatry</li></a>
+								<a href="motorcntrl.php"><li><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+								Ophthalmology (Eye)</li></a>
+								<a href="dboards.php"><li><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+								Physiology and Physiotherapy </li></a>
+								<a href="amf.php"><li><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+								Radiology / Imaging</li></a>
+								</ul>
+							</li>
+							<li <?php if($mainUrl == "/services.php")  echo $bgClass;?>><a href="services.php" <?php if($mainUrl == "/services.php")  echo $assignClass;?>>BOOKONLINE APPOINTMENT</a></li>
+							<li <?php if($mainUrl == "/gallery.php")  echo $bgClass;?>><a href="gallery.php" <?php if($mainUrl == "/gallery.php")  echo $assignClass;?>>GALLERY</a></li>
+							<li <?php if($mainUrl == "/tie-ups.php")  echo $bgClass;?>><a href="tie-ups.php" <?php if($mainUrl == "/tie-ups.php")  echo $assignClass;?>>TIE UPS</a></li>
+							<li <?php if($mainUrl == "/contact.php")  echo $bgClass;?>><a href="contact.php" <?php if($mainUrl == "/contact.php")  echo $assignClass;?>>CONTACTUS</a></li>
+							<li <?php if($mainUrl == "/feedback.php")  echo $bgClass;?>><a href="feedback.php" <?php if($mainUrl == "/feedback.php")  echo $assignClass;?>>FEEDBACK</a></li>
+						</ul>
+					</nav>
+								</div><!-- End Manin Menu -->
+								<!-- Start Mobile Menu --
+								<div class="mobile-menu hidden-md hidden-lg">
+									<nav>
+										<ul>
+											<li class=""><a href="index.php">Home</a></li>
+											<li class=""><a href="about.php">ABOUT US</a></li>
+											<li class=""><a href="specialties.php">SPECIALTIES</a></li>
+											<li class=""><a href="products.php">OUR DOCTORS</a></li>
+											<li class=""><a href="services.php">BOOK ONLINE APPOINTMENT</a></li>
+											<li class=""><a href="gallery.php">GALLERY</a></li>
+											<li class=""><a href="tie-ups.php">TIE UPS</a></li>
+											<li class=""><a href="contact.php">CONTACT US</a></li>
+											<li class=""><a href="">FEEDBACK</a></li>
+										</ul>
+									</nav>
+								</div><!-- End Mobile Menu -
+							</div>
+						</div>
+					</div>
+
+		</div><!-- End Main Menu Area -->
+		<!-- demo -->
+		</div>
+		</div>
+				
+			</div><!-- End Header Bottom -->
+		</div><!-- End Header Area -->
+<!-- popup srarts-->
+<div id="gridSystemModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="gridModalLabel">Login</h4>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid bd-example-row">
+          <div class="row">
+            <form>
+			  <input type="text" placeholder="Username" class="usr"><br><br>
+			  <input type="text" placeholder="Password" class="usr"><br><br>
+			  <input type="checkbox">  Remember me<br><br>
+			</form>
+          </div>
+         
+         
+          <div class="row">
+            <div class="col-sm-9">
+              
+              <div class="row">
+                
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary pull-left">LOGIN</button>
+		<li class="res"><a href="">RESET PASSWORD</a></li>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- popup ends -->

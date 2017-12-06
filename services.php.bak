@@ -1,0 +1,87 @@
+<?php include('header.php'); ?>
+		<!-- Breadcurb Area -->
+		<div class="breadcurb-area">
+			<div class="container">
+				<ul class="breadcrumb">
+					<li class="home"><a href="#">Home</a></li>
+					<li>Blog</li>
+				</ul>
+			</div>
+		</div><!-- End Breadcurb Area -->
+		<!-- Main Blog Post Area Area -->
+		<div class="main-blog-page blog-post-area">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-12 col-sm-12">
+						<!-- Blog Post Item Area -->
+						<div class="blog-post-item-ara">
+							<div class="blog-post-inner-item">
+								<!-- Blog Post Single Item -->
+								<div class="blog-post-single-item">
+									<div class="single-item-img">
+										<a href="#">
+											<img alt="product" src="img/services/service1.jpg">
+										</a>
+									</div>
+									<div class="single-item-content">
+										<h2><a href="#">Apex Electricals</a></h2>
+										<h3>One Step For All Your Electrical Solutions </h3>
+										<p>Being a forerunner amongst the Apex Electricals in India, Indus automation Technologies lives up to its name every time it delivers an automation product or service to its industrial clients. Being a solutions provider, we tend to a variety of needs of our clients, ranging from simple drive installations to integrated networks of control machinery involving DCS systems as well as PAC systems....</p>
+										<p>
+										Extremely short down-times during installation and commissioning, simple, user friendly interfaces, almost zero maintenance, stability counted in years of run-time, and cost-effectiveness are some of the characteristics that distinguish Indus automation from similar automation technologies companies in India.	
+										</p>
+									</div>
+								</div><!-- End Blog Post Single Item -->
+								<!-- Blog Post Single Item -->
+								<div class="blog-post-single-item">
+									<div class="single-item-img">
+										<a href="#">
+											<img alt="product" src="img/services/service2.jpg">
+										</a>
+									</div>
+									<div class="single-item-content">
+										<h2><a href="#">Apex Electricals</a></h2>
+										<h3>One Step For All Your Electrical Solutions </h3>
+										<p>We have a dedicated Emergency Management Team, consisting of a top engineers and technicians at the company, ready to be moved to any client location in India in a matter of hours, should an issue arise. This facility provides peace of mind to the client, knowing that help is not far away. </p>
+										<p>
+											Also, special training programs conducted by Indus automation to educate the client engineers and technicians have been appreciated well. These programs empower those personnel to work all the more confidently on newly installed systems as well as undertake minor maintenance as well as fault clearance jobs themselves 
+										</p>
+									</div>
+								</div><!-- End Blog Post Single Item -->
+								
+								<!-- Blog Post Single Item -->
+								<div class="blog-post-single-item">
+									<p class="services-design">
+										In addition to these custom services, Indus automation Technologies also provides products and systems that suits a variety of requirements in various industries. These include:
+									</p>
+									<div>
+									<ul>
+										<li><i class="fa fa-chevron-right"></i> &nbsp; Programmable Logic Controllers (PLC)</li>
+										<li><i class="fa fa-chevron-right"></i> &nbsp; Variable Frequency Drives (VFD)</li>
+										<li><i class="fa fa-chevron-right"></i> &nbsp; Human Machine Interfaces (HMI)</li>
+										<li><i class="fa fa-chevron-right"></i> &nbsp; Sensors</li>
+										<li><i class="fa fa-chevron-right"></i> &nbsp; Servo motors/ Stepper Motors</li>
+										<li><i class="fa fa-chevron-right"></i> &nbsp; Control Panels</li>
+										<li><i class="fa fa-chevron-right"></i> &nbsp; Encoder's</li>
+										<li><i class="fa fa-chevron-right"></i> &nbsp; Motors</li>
+										<li><i class="fa fa-chevron-right"></i> &nbsp; Electrical & Electronics</li>
+										<li><i class="fa fa-chevron-right"></i> &nbsp; Temprature & Controllers</li>
+									</ul>
+									</div>
+									<p class="services-design2">
+										These products and systems can be delivered with or without associated service jobs as per the client requirements. We deliver all major brands of equipment such as PLCs, VFDs, HMIs and drives. All systems can be customized to suit the client requirements and site conditions and can be delivered in very short periods of time. 
+									</p>
+									
+								</div><!-- End Blog Post Single Item -->
+							</div>
+							
+						</div><!-- End Blog Post Item Area -->
+					</div>
+				</div>
+			</div>
+		</div><!-- Main Blog Post Area Area -->
+		
+
+
+<?php include('footer.php'); ?>

@@ -1,0 +1,94 @@
+
+<?php include('header.php'); ?>
+	<!-- Breadcurb Area -->
+		<div class="breadcurb-area">
+			<div class="container">
+				<ul class="breadcrumb">
+					<li class="home"><a href="#">Home</a></li>
+					<li>Clients</li>
+				</ul>
+			</div>
+		</div><!-- End Breadcurb Area -->
+		<!-- Main Blog Post Area Area -->
+		
+		<div class="clients-container">	
+		<!-- Top Banner Area -->
+		<div class="top-banner-area">
+			<div class="container">
+				<div class="clients-content">
+					<p>There is only one boss - <b>"The customer"</b> We always put the customer first - Having <b>"satisfied customers"</b> is the best business strategy we follow.</p>
+				</div>
+				<div class="row">
+					<div class="col-md-3 col-sm-4">
+						<!-- Single Banner -->
+						<div class="single-bannerss-imges">
+							<a href="#"><img src="img/clients/cargill-logo.png" alt="banner"></a>
+							<div class="sub-head">CARGILL FOOD</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4">
+						<!-- Single Banner -->
+						<div class="single-bannerss-imges">
+							<a href="#"><img src="img/clients/essar-port.jpg"  alt="banner"></a>
+							<div class="sub-head">ESSAR PORT</div>
+						</div>
+
+					</div>
+					<div class="col-md-3 col-sm-4">
+						<!-- Single Banner -->
+						<div class="single-bannerss-imges">
+							<a href="#"><img src="img/clients/GMR-Power.jpg"  alt="banner"></a>
+							<div class="sub-head">GMR POWER</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4">
+						<!-- Single Banner -->
+						<div class="single-bannerss-imges">
+							<a href="#"><img src="img/clients/pattabhi.png"  alt="banner"></a>
+							<div class="sub-head">PATTABHI AGRO</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- End Top Banner Area -->
+
+		<!-- Top Banner Area -->
+		<div class="top-banner-area">
+			<div class="container">
+				
+				<div class="row">
+					<div class="col-md-3">
+						<!-- Single Banner -->
+						<div class="single-bannerss-imges">
+							<a href="#"><h2>SRINIVASA HOSPITALS</h2></a>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4">
+						<!-- Single Banner -->
+						<div class="single-bannerss-imges">
+							<a href="#"><img src="img/clients/Vizag-Steel.jpg"></a>
+							<div class="sub-head">VIZAG STEEL PLANT</div>
+						</div>
+
+					</div>
+					<div class="col-md-3 col-sm-4">
+						<!-- Single Banner -->
+						<div class="single-bannerss-imges">
+							<a href="#"><img src="img/clients/navabharath.png" ></a>
+							<div class="sub-head">NAVA BHARATH PVT LTD</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4">
+						<!-- Single Banner -->
+						<div class="single-bannerss-imges">
+							<a href="#"><img src="img/clients/sirius-overseas.jpg"></a>
+							<a href="#"><h2>SIRIUS OVERSEAS PVT LTD</h2></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- End Top Banner Area -->
+     </div>        
+		
+		
+<?php include('footer.php'); ?>

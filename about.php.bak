@@ -1,0 +1,97 @@
+<?php include('header.php'); ?>
+		<!-- Breadcurb Area -->
+		<div class="breadcurb-area">
+			<div class="container">
+				<ul class="breadcrumb">
+					<li class="home"><a href="#">Home</a></li>
+					<li>About</li>
+				</ul>
+			</div>
+		</div><!-- End Breadcurb Area -->
+		<!-- Main Blog Post Area Area -->
+		<div class="main-blog-page blog-post-area">
+			
+            <section class="about-car">
+                <div class="container">
+					<p class="justify">
+						<b class="bold">Apex Electricals</b> is a fast growing  Automation && Electrical solutions company. <b class="bold">Apex Electricals</b> was established in the year 2011 with team of Industrial Experienced Technocrats having varied experience in the field of PLC, DCS, SCADA, VFD, Electrical Panels, Servos and software development for industrial applications.
+					</p>
+					<p class="justify" style="margin-left:10px;">
+					<i class="fa fa-hand-o-right"></i> &nbsp; Installation and Commissioning of schhneider/Siemens/mitsubishi/Allen-Bradley make PLC Systems , automation projects and  Monitoring System.</p>
+
+					<p class="justify" style="margin-left:10px;"><i class="fa fa-hand-o-right"></i> &nbsp; Complete Erection of 400 KV Switch Yard Equipments for ABB Apple industries, ballari and SIRIUS overseas.</p>
+					<p class="justify" style="margin-left:10px;"><i class="fa fa-hand-o-right"></i> &nbsp; Erection and Commissioning of complete Instrument Package (around 300
+					Instruments) for ryali technologies</p>
+					</p>
+				    <p class="justify">It's great pleasure to introduce ourselves as Electrical and electronic Control panel manufacturers and Authorized System Integrators for below mentioned Industrial Automation products. We will provide products best in quality in worldwide like VFDs, PLCs, HMIs, Servo motors, Gear boxes, Solar, Encoder, Soft Starters, Switchgear, Timers, Relays, Limit Switches, Sensors and Etc.	
+					</p>
+
+					<p class="justify"><b class="bold">Apex Electricals</b> working philosophy puts professionalism as the main thrust and continuously enhanced book and web knowledge for greater production.</p>
+
+					<p class="justify"><b class="bold">Apex Electricals</b> BUSINESS OBJECTIVE is to provide high reliability range of products and services to customers at lower cost.</p>
+
+					<p class="justify"><b class="bold">Apex Electricals</b> MISSION educates and implements Green Technologies and Energy Efficient Systems to sustain life for future generation</p>
+
+					<p class="justify"><b class="bold">SERVICES OFFERED:</b> We offer single window sales & services for VFDs, DC drive, Soft Starters, PLC, HMI, SCADA, Switchgear, Servo Motors and drives, FLP Boxes, Sensors, Timers, Temperature Controllers, Transmitters, RTDS, Encoders, Motors, Gear Boxes, Solar Equipments, Cables And Design & Fabrication of all types of electrical and electronic Control Panel like MCCS, PCCS, Capacitor panels(APFC),Change Over panels and any other things related to industrial automations.</p>
+
+					<p class="justify"><b class="bold">Apex Electricals</b> TEAM consists of group of dedicated professionals having extensive hands-on experience in the following:</p>
+
+					<p class="justify"><b class="bold">VFDS:</b> With VFDS we have hands-on experience in different applications like Centrifuges, Reactors, ID and FD Fans in Boilers (PID), Compressors, Synchronization of conveyors, Cranes, Lifts, AHUS, Cut to mark and so on.</p>
+
+					<p class="justify"><b class="bold">PLCS:</b> With PLCS we have hands-on experience in different applications like Machine tools (SPMS & GPMS), Packaging machines, Augur filling machines, Liquid filling machines, Material handling (pick and place and conveyors), Process automation, Automation of Reactor and Centrifuge and so on.</p>
+
+					<p class="justify"><b class="bold">SERVO:</b> With SERVO DRIVE we have hands-on experience in different applications like Augur filling, Cut to length, Cut to Mark, Pick & Place, Notching, FFS machines, Cigarette Packing, Board feeding and in SPMS.
+
+					And their specialized skills are Design, Engineering, Manufacturing, Erection, Commissioning, Software Development, Service, Maintenance, Retrofits and Training.</p>
+
+					<p class="justify">We are serving various types of industries like Pharmaceutical, Process industries, Chemical, SPM OEM, Rubber, Textile, Printing, Packaging, Filling, Automobile, Paper, Plastic, Food, Machine Tool, up-gradation / retro fitment of machines</p>
+
+					<p class="justify">We request you to kindly register our firm as vendor for Automation products and Software development and send us your valuable enquires as and when it arises which in turn will receive our prompt action. Looking forward to a fruitful Business relationship with your esteemed organization. Thanking you as assuming of our best services always.</p>
+                    
+                </div>
+            </section>
+            
+            
+             
+             
+             <section class="about-standards">
+                <div class="container">
+                    <div class="col-md-12 pad-0 m-t-25 m-b-25">
+                        <h2><span>Why choose us?</span></h2>
+                        <div class="col-md-6">
+							<p class="justify"><i class="fa fa-hand-o-right" aria-hidden="true"></i> &nbsp; We are specialized in installation of Clean rooms, Industrial lighting High mast Street and facade lighting, interior luminaries for Hospitals, Star Hotels and offices.
+							Supply, Installation, Calibration and commissioning of process measurement and
+							control Instrumentation like Transmitters, Valves, Impulse line tubing, cable tray
+							works, Stanchions.</p>
+                            <p style="color:#0083C1;"><b>Explosion proof junction boxes, Conduit wiring, signal cable laying, terminations and testing.</b></p>
+							<p><i class="fa fa-hand-o-right"></i>&nbsp; Vibration Monitoring for compressors and pumps.</p>
+							<p><i class="fa fa-hand-o-right"></i> &nbsp; Exploring the cause of repetitive failure of machines.</p>
+							<p><i class="fa fa-hand-o-right"></i> &nbsp; Ensuring the safety of the equipment against Vibration & Shock,
+							Dynamic balancing of Rotors and rotating components.</p>
+                        </div>
+                        <div class="col-md-6 choose-y">
+								<p class="justify"><i class="fa fa-hand-o-right" aria-hidden="true"></i>
+								We have well experienced engineers in all disciplines and young, talented work force
+								adaptable to any work site conditions and work load.
+								We are sensitive to project requirements and accept changes/modifications as per
+								client&lsquo;s requirement for the successful execution of the project.</p>
+
+								<p class="justify"><i class="fa fa-hand-o-right" aria-hidden="true"></i>
+									We strictly adhere to individuals’ health, equipment Safety and comply with Environment related statutory norms.</p>
+								<p style="color:#0083C1;"><b>Work Force:</b></p>
+								<p class="justify"><i class="fa fa-hand-o-right" aria-hidden="true"></i> &nbsp; Key engineers- 18 (Mechanical, Electrical and Instrumentation).</p>
+								<p class="justify"><i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp; Supervisors - 27 Technicians and Sr. Technicians- 150
+									Total employees, around 200
+									Presently Apex Electricals is having five major projects on hand. Each project is handled by a dedicated site incharge, supervisors, Sr. technicians and technicians.</p>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+             </section>
+             
+             
+            
+		</div><!-- Main Blog Post Area Area -->
+		
+<?php include('footer.php'); ?>

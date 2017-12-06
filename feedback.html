@@ -1,0 +1,109 @@
+<?php
+  if($_SERVER['REQUEST_METHOD'] == "POST") {
+		extract($_POST);
+		$to = "apexelectricalshyd@gmail.com";
+		$message = "
+			<html>
+			<head>
+				<title>Apex Electricals Mail</title>
+			</head>
+			<body>
+				<div style='border:#000 solid 1px; width:800px;padding:10PX;'>
+				<p><b>Dear Apex Electricals,</b><br/> 
+					".$name." has been contact you, Please follow the below details:
+				</p>
+				<table style='line-height:30px;'>
+					<tr>
+						<td><b>Name :</b></td>
+						<td>".$name."</td>
+					</tr>
+					<tr>
+						<td><b>Email :</b></td>
+						<td>".$email."</td>
+					</tr>
+					<tr>
+						<td><b>Mobile Number :</b></td>
+						<td>".$mobileNumber."</td>
+					</tr>
+					<tr>
+						<td><b>Message :</b></td>
+						<td>".$message."</td>
+					</tr>
+					<tr>
+						<td colspav='2'><div style='height:20px;'></div></td>
+					</tr>
+					<tr>
+						<td colspav='2'>
+							<b>Thanks && Regards,</b><br/>
+							".$name.""."
+						</td>
+					</tr>
+				</table>
+				</div>
+			</body>
+		</html>";
+
+		$subject = $name." contcat you";
+		// Always set content-type when sending HTML email
+		
+		
+		// Always set content-type when sending HTML email
+		$headers = "MIME-Version: 1.0" . "\r\n";
+		$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+
+		// More headers
+		$headers .= 'From: '.$name.'' . "\r\n";
+		
+		mail($to,$subject,$message,$headers);	
+
+		echo "success";
+		exit;
+  }
+?>
+<?php include('header.php'); ?>
+		<!-- Contact area -->
+		<div class="contact-area">
+			<div class="container">
+				<div class="row">
+					
+					
+							<div class="col-md-12  col-sm-12 col-xs-12">
+								<div class="contact-form">
+									<div class="row">
+									<div class="col-md-offset-3 col-md-6">
+										<form  method="POST" id="contactForm" name="contactForm">
+											<div class="col-md-4 col-sm-8 col-xs-18">
+												<input name="name" id="name" type="text" placeholder="Name (required)" />
+												<span id="errName" class="errMessage"></span>
+											</div>
+											<div class="col-md-4 col-sm-8 col-xs-8">
+												<input name="email" id="emailId" type="email" placeholder="Email (required)" />
+												<span id="errEmail" class="errMessage"></span>
+											</div>
+											<div class="col-md-8 col-sm-8 col-xs-8">
+												<input name="mobileNumber" id="mobileNumber" type="text" placeholder="Mobile Number(required)" />
+												<span id="errMobileNum" class="errMessage"></span>
+											</div>
+											<div class="col-md-8 col-sm-8 col-xs-8">
+												<input name="subject" id="subject" type="text" placeholder="Subject" />
+												<span id="errSubject" class="errMessage"></span>
+											</div>
+											<div class="col-md-8 col-sm-8 col-xs-8">
+												<textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+												<br>
+												<span id="errMessage" class="errMessage"></span>
+												<input type="submit" value="Submit Form" />
+												<div style="height:20px;"></div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div><!-- End Eontact area -->
+		
+		
+
+<?php include('footer.php'); ?>

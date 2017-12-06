@@ -1,0 +1,108 @@
+<?php
+  if($_SERVER['REQUEST_METHOD'] == "POST") {
+		extract($_POST);
+		$to = "apexelectricalshyd@gmail.com";
+		$message = "
+			<html>
+			<head>
+				<title>Apex Electricals Mail</title>
+			</head>
+			<body>
+				<div style='border:#000 solid 1px; width:800px;padding:10PX;'>
+				<p><b>Dear Apex Electricals,</b><br/> 
+					".$name." has been contact you, Please follow the below details:
+				</p>
+				<table style='line-height:30px;'>
+					<tr>
+						<td><b>Name :</b></td>
+						<td>".$name."</td>
+					</tr>
+					<tr>
+						<td><b>Email :</b></td>
+						<td>".$email."</td>
+					</tr>
+					<tr>
+						<td><b>Mobile Number :</b></td>
+						<td>".$mobileNumber."</td>
+					</tr>
+					<tr>
+						<td><b>Message :</b></td>
+						<td>".$message."</td>
+					</tr>
+					<tr>
+						<td colspav='2'><div style='height:20px;'></div></td>
+					</tr>
+					<tr>
+						<td colspav='2'>
+							<b>Thanks && Regards,</b><br/>
+							".$name.""."
+						</td>
+					</tr>
+				</table>
+				</div>
+			</body>
+		</html>";
+
+		$subject = $name." contcat you";
+		// Always set content-type when sending HTML email
+		
+		
+		// Always set content-type when sending HTML email
+		$headers = "MIME-Version: 1.0" . "\r\n";
+		$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+
+		// More headers
+		$headers .= 'From: '.$name.'' . "\r\n";
+		
+		mail($to,$subject,$message,$headers);	
+
+		echo "success";
+		exit;
+  }
+?>
+<?php include('header.php'); ?>
+		<!-- Contact area -->
+		<div class="contact-area">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-12">
+						<div class="row">
+							<div class="col-md-12">
+								<!-- Map area -->
+								<div class="map-area">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d243647.25176871577!2d78.40804555!3d17.4123487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1470916937501" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+								</div><!-- End Map area -->
+							</div>
+						</div>
+						<div class="row">
+							<!-- contact info -->
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<div class="contact-info">
+									<h3>Contact info</h3>
+									<ul>
+										<li>
+											<i class="fa fa-map-marker"></i> <strong>Address</strong>
+											Kukat Pally,hyderabad,telangana,500038.
+										</li>
+										<li>
+											<i class="fa fa-envelope"></i> <strong>Phone</strong>
+											040 49510103
+										</li>
+										<li>
+											<i class="fa fa-mobile"></i> <strong>Email</strong>
+											<a href="#">himagirihospitals@gmail.com</a>
+										</li>
+									</ul>
+								</div>
+							</div><!-- End contact info -->
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>&nbsp<!-- End Eontact area -->
+		
+		
+
+<?php include('footer.php'); ?>
